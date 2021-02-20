@@ -24,6 +24,7 @@ public class GpsController {
         VisitedLocation visitedLocation = gpsService.getUserLocation(UserId);
         return visitedLocation;
 
+
     }
 
     @GetMapping("/allAttractions")
